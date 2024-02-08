@@ -18,7 +18,7 @@ img{
     flex-wrap: wrap;
 }
 .container-small{
-    max-width: 1850px;
+    max-width: 1000px;
     padding-left: 10px;
     padding-right: 10px;
     display: flex;
@@ -73,10 +73,7 @@ img{
     display: flex;
     justify-content: end;
 }
-a{
-    text-decoration: none;
-    color: #000;
-}
+
 
 /*-------------
  BUTTON
@@ -111,6 +108,10 @@ header{
     align-items: center;
     gap: 0 40px;
 }
+header a{
+    text-decoration: none;
+    color: #000;
+}
 /*-------------
  END OF HEADER
 ------------ */
@@ -121,7 +122,7 @@ header{
     background-color: #B4D0E7;
 }
 h1{
-    font-size: 54px;
+    font-size: 70px;
     font-weight: 800;
     padding-top: 100px ;
     padding-bottom: 50px;
@@ -139,4 +140,60 @@ h1{
 .col-40 p i{
     font-size: 46px;
     padding-top: 30px;  
+}
+/*-------------
+ END OF HERO
+------------ */
+/*-------------
+  SECTION
+------------ */
+main .container-small{
+    padding-top: 90px;
+}
+h2{
+    font-size: 40px;
+    padding-bottom: 70px;
+}
+h3{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.fatturazione input{
+    cursor: pointer;
+}
+.fatturazione{
+    padding-bottom: 50px;
+}
+section .row{
+    justify-content: space-between;
+}
+.piani{
+    text-align: center;
+    border: 1px solid #DBDBDD;
+}
+.col-33 div:not(.periodo) {
+    padding: 18px 0;
+}
+h4{
+    padding-top: 40px;
+}
+.col-33 .button-blue{
+    margin: 30px 0;
+}
+.periodo{
+    color: #9A9898;
+    padding-bottom: 50px;
+}
+
+.col-33 button{
+    width: 100%;
+}
+.col-33 ul li{
+    padding-top: 20px;
+    list-style-position: inside;
+    list-style-image: url(./check-solid.svg);
+}
+.col-33 .dettagli{
+    border: 1px solid #DBDBDD;
+    padding: 0 20px;
 }
