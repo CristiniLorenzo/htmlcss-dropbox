@@ -13,7 +13,7 @@
 <body>
     <header>
         <div class="header">
-            <img src="./logo-small.png" alt="Logo">
+            <img src="./img/logo-small.png" alt="Logo">
             <a href="#">Perchè Dropbox</a>
             <a href="#">Funzioni</a>
             <a href="#">Piani e Prezzi</a>
@@ -40,7 +40,7 @@
                         <p><i class="fa-solid fa-arrow-down"></i></p>
                     </div>
                     <div class="col-60">
-                        <img src="./jumbo.png" alt="">
+                        <img src="./img/jumbo.png" alt="">
                     </div> 
                 </div>
             </div> 
@@ -54,50 +54,150 @@
                 <input type="radio">Fatturazione mensile
                 <input type="radio">Fatturazione annuale
             </div>
+
+             <!-- SISTEMARE CON UL 
+                    CREARE DIV INTERNO A COL-33
+                    RIVEDERE LEZZIONE PER VEDERE GAP CON SPACE-BETWEEN-->
             <div class="row">
                 <div class="col-33">
-                    <div class="piani">
-                        <i class="fa-solid fa-user"></i> Singolo
-                    </div>
-                    <div class="dettagli">
-                        <h3>Professional</h3>
-                        <div>€ 12,00</div>
-                        <div class="periodo">
-                            /mese
+                    <div class="plan-card">
+                        <div class="piani">
+                            <i class="fa-solid fa-user"></i> Singolo
                         </div>
-                        <div>
-                            <i class="fa-solid fa-user"></i> 1 utente
-                        </div>
-                        <div>
-                            <i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro
-                        </div>
-                        <div>
-                            <i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura
-                        </div>
-                        <button class="button-blue">prova gratis per 30 giorni</button>
-                        <div>
-                            oppure <a href="#">acquista gratis ora</a>
-                        </div>
-                        <hr>
-                        <h4>Punti salienti del piano</h4>
-                        <ul>
-                            <li>Invia file fino a 100 GB con Dropbox Transfer</li>
-                            <li>Cartelle offline su dispositivi mobili</li>
+                        <div class="dettagli">
+                            <h3>Professional</h3>
+                            <div>€ 12,00</div>
+                            <div class="periodo">
+                                /mese
+                            </div>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-user"></i> 1 utente
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura
+                                </li>
+                            </ul>
+                            <button class="button-blue">prova gratis per 30 giorni</button>
+                            <div>
+                                oppure <a href="#">acquista gratis ora</a>
+                            </div>
+                            <hr>
+                            <h4>Punti salienti del piano</h4>
+                            <ul class="plan-topics">
+                                <li>
+                                    <i class="fa-solid fa-check"></i>    
+                                    Invia file fino a 100 GB con Dropbox Transfer
+                                </li>
+                                    <i class="fa-solid fa-check"></i>    
+                                    Invia file fino a 100 GB con Dropbox Transfer
+                                </li>
 
-                        </ul>
-                    </div>    
+                            </ul>
+                        </div> 
+                    </div>   
                 </div>
                 <div class="col-33">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores accusamus aliquam ipsam officia, voluptatum voluptates quas, nam, ea sapiente alias repudiandae? Atque ut expedita explicabo? Rerum libero suscipit quisquam repellat!</p>
-                    <button class="button-blue">Inizia la tua prova gratuita</button>
-                    <p>Annulla in qualsiasi momento</p>
-                    <p><i class="fa-solid fa-arrow-down"></i></p>
+                    <div class="plan-card">
+                        <div class="piani">
+                            <i class="fa-solid fa-users"></i> Team
+                        </div>
+                        <div class="dettagli">
+                            <h3>Advanced</h3>
+                            <div>€ 18,00</div>
+                            <div class="periodo">
+                                /utente/mese
+                            </div>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-users"></i> 3 o più utenti
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
+                                </li>
+                            </ul>
+                            <button class="button-blue">prova gratis per 30 giorni</button>
+                            <div>
+                                oppure <a href="#">acquista gratis ora</a>
+                            </div>
+                            <hr>
+                            <h4>Punti salienti del piano</h4>
+                            <ul class="plan-topics">
+                                <li>
+                                    <i class="fa-solid fa-check"></i>    
+                                    Nessun limite di spazio per i file
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>    
+                                    Cartelle offline su dispositivi mobili
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>    
+                                    Risparmio del 50% rispetto alle iscrizioni singole
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>    
+                                    Possibilità di inserire nuovi membri del team
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>    
+                                    Gestione dei permessi in base ai ruoli
+                                </li>
+                            </ul>
+                        </div> 
+                    </div>   
                 </div>
                 <div class="col-33">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores accusamus aliquam ipsam officia, voluptatum voluptates quas, nam, ea sapiente alias repudiandae? Atque ut expedita explicabo? Rerum libero suscipit quisquam repellat!</p>
-                    <button class="button-blue">Inizia la tua prova gratuita</button>
-                    <p>Annulla in qualsiasi momento</p>
-                    <p><i class="fa-solid fa-arrow-down"></i></p>
+                    <div class="plan-card">
+                        <div class="piani">
+                            <i class="fa-solid fa-building"></i> Azienda
+                        </div>
+                        <div class="dettagli">
+                            <h3>Enterprise</h3>
+                            <div>Contattaci</div>
+                            <div class="periodo">
+                                -
+                            </div>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-user"></i> 10 o più utenti
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala
+                                </li>
+                            </ul>
+                            <button class="button-blue">prova gratis per 30 giorni</button>
+                            <div>
+                                oppure <a href="#">acquista gratis ora</a>
+                            </div>
+                            <hr>
+                            <h4>Punti salienti del piano</h4>
+                            <ul class="plan-topics">
+                                <li>
+                                    <i class="fa-solid fa-check"></i>    
+                                    Cartelle offline su dispositivi mobili
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>    
+                                    Servizio assistenza 24/h
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>    
+                                    Possibilità di personalizzazione totale
+                                </li>
+
+                            </ul>
+                        </div> 
+                    </div>   
                 </div>
                 
                 
