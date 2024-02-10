@@ -71,6 +71,9 @@ img{
     display: flex;
     justify-content: end;
 }
+.flex{
+    display: flex;
+}
 
 
 /*-------------
@@ -85,7 +88,13 @@ img{
     cursor: pointer;
     font-size: 16px;
 }
-
+.button-white{
+    background-color: #fff;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 10px 14px;
+    font-size: 16px;
+}
 /*-------------
  HEADER
 ------------ */
@@ -157,6 +166,7 @@ h2{
 h3{
     padding-top: 30px;
     padding-bottom: 20px;
+    font-size: 28px;
 }
 .fatturazione input{
     cursor: pointer;
@@ -207,9 +217,12 @@ ul li i{
 .fa-check{
     color: #0061FF;
 }
-.col-33 .dettagli{
-    
+.col-33 .dettagli{ 
     padding: 0 20px;
+}
+.card-left{
+    padding-left: 20px;
+    padding-bottom: 30px; 
 }
 .col-100 .plan-card .card-main{
     display: flex;
@@ -227,4 +240,10 @@ ul li i{
 .col-70 .dettagli div{
     padding-bottom: 30px;
     font-weight: bold;
+}
+.row .col-100{
+    margin-top: 150px;
+}
+.col-100 .col-40{
+    padding: 0 50px
 }
