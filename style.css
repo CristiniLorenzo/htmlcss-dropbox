@@ -211,3 +211,20 @@ ul li i{
     
     padding: 0 20px;
 }
+.col-100 .plan-card .card-main{
+    display: flex;
+}
+.card-right{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.card-right .button-blue{
+    /* width: 80%; */
+    text-align: center;
+    padding: 12px 0px; 
+}
+.col-70 .dettagli div{
+    padding-bottom: 30px;
+    font-weight: bold;
+}
