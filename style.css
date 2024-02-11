@@ -247,3 +247,56 @@ ul li i{
 .col-100 .col-40{
     padding: 0 50px
 }
+.margin-200{
+    margin-top: 200px;
+}
+.business-card *{
+    padding-bottom: 30px;
+}
+
+
+.partner{
+    margin-top: 100px;
+}
+.partner .row{
+    gap: 0px;
+}
+.partner .col-33{
+    display: block;
+}
+ .row .col-50{
+    width: calc(100vw / 6);
+    height: calc(100vw / 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col-50 img{
+    width: 50%;
+    filter: invert(1);
+}
+.green{
+    background-color: #A2D39B;
+    border: 15px solid #D1E9CD;
+}
+.amaranto{
+    background-color: #61082B;
+}
+.sky{
+    background-color: #0093CE;
+}
+.red{
+    background-color: #FF1C1C;
+}
+.dark-red{
+    background-color: #D5001F;
+}
+.light-blue{
+    background-color: #B4D0E7;
+}
+.blue{
+    background-color: #0D2481;
+}
+.yellow{
+    background-color: #FFD830;
+}
