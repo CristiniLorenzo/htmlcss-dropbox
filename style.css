@@ -272,6 +272,28 @@ ul li i{
     align-items: center;
     justify-content: center;
 }
+.partner .col-33 .row .main-partner {
+    width: 50%;   
+    margin-top: 0;
+}
+.partner .col-33 .row .col-100{
+    margin-top: 50px;
+}
+.partner-text{
+    background-color: #F5F5F5;
+    
+    overflow-y: auto;
+
+    
+}
+.partner-text .row{
+    display: block;
+    
+}
+.partner-text .row .col-100 {
+    width: 100%;
+    padding: 0px 30px;
+}
 .col-50 img{
     width: 50%;
     filter: invert(1);
@@ -329,4 +351,36 @@ ul li i{
 }
 .domande{
     padding: 40px 0;
+}
+footer{
+    background-color: #000000;
+    color: #fff;
+}
+footer .container-large{
+    padding: 70px 0;
+    
+}
+footer .container-large .row{
+    width: 100%;
+}
+
+footer ul{
+    list-style: none;
+    padding-right: 50px;
+}
+footer ul li{
+    padding-top: 12px;
+}
+footer h4{
+    padding-bottom: 20px;
+}
+footer .row hr{
+    width: 100px;
+}
+.link-footer{
+    padding-bottom: 100px;
+}
+.lingua{
+    padding-top: 50px;
+    color: #858581;
 }
