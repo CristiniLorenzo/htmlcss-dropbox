@@ -257,6 +257,7 @@ ul li i{
 
 .partner{
     margin-top: 100px;
+    max-width: 100%;
 }
 .partner .row{
     gap: 0px;
@@ -299,4 +300,33 @@ ul li i{
 }
 .yellow{
     background-color: #FFD830;
+}
+.azienda{
+    background-color: #B4D0E7;
+}
+.col-60 h2{
+    color: #61082B;
+}
+.prova .col-40{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.prova .col-40 button{
+    border: none;
+    padding: 10px 60px;
+}
+.faq {
+    padding: 20px 0;
+}
+.faq .container-small{
+    display: block;
+    margin-bottom: 50px;
+}
+.faq .col-20{
+    display: flex;
+    justify-content: flex-end;
+}
+.domande{
+    padding: 40px 0;
 }
